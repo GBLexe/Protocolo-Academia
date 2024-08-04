@@ -1,0 +1,58 @@
+body{
+    background-color: darkslategray;
+}
+
+h1{
+    text-align: center;
+  font-size: 50PX;
+  padding-top: 0px;
+  margin: 0%;
+}
+a{
+  text-decoration: none;
+  color: white;
+
+}
+.Semana1{
+  padding-top: 100px;
+display: flex;
+flex-direction: column;/*deixa os botões em coluna, muito util*/ 
+align-self: center;
+gap: 50px; /*deixa espaço entre os botões*/
+}
+button {
+  padding:50px ;
+width: 30%; /*arruma a largura do botão, sempre usar % para isso, bem mais fácil.*/
+height: auto;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  font-size: 50px;
+  align-self: center;
+
+}
+
+
+header{
+
+  
+  background-color:#007BFF;
+height: 100px;
+      width: 100%; /* Define a largura da header como 100% da largura da tela */
+   padding: 0%;
+   margin: 0%;
+   text-align: center;
+   
+}
+h2{
+
+  padding:50px ;
+  width: 30%; /*arruma a largura do botão, sempre usar % para isso, bem mais fácil.*/
+  height: auto;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    font-size: 50px;
+    align-self: center;
+  
+}
